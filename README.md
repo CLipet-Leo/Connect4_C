@@ -11,6 +11,7 @@ Download the "Visual C++ 15 (2017) - 64-bit" directory in : https://www.sfml-dev
 and move to your project directory.
 
 Then in Visual Studio :
+
 Go to Debug -> "name of your project" Debug Properties
 
 Debugging -> Environment -> type : `PATH=%PATH%;$(ProjectDir)..\SFML-2.5.1\bin`
