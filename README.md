@@ -25,7 +25,7 @@ Finally you can apply changes and quit this window
 
 All you have to do now is `#include <SDL.h>` and you are ready to go !!!
 
-##Code sample for test SFML :
+## Code sample for test SFML :
 ```
 #include <SFML/Graphics.hpp>
 
