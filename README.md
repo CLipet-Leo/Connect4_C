@@ -4,6 +4,8 @@ A training for my C++ exams to come ;)
 ## Install SDL :
 Go to Project -> package NuGet -> search for sdl2.nuget
 
+All you have to do now is `#include <SDL.h>` and you are ready to go !!!
+
 ## Install SFML :
 Go to Debug -> "name of your project" Debug Properties
 
