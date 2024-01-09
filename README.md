@@ -8,7 +8,7 @@ All you have to do now is `#include <SDL.h>` and you are ready to go !!!
 
 ## Install SFML :
 Download the "Visual C++ 15 (2017) - 64-bit" directory in : https://www.sfml-dev.org/download/sfml/2.5.1/index-fr.php
-and move to your project directory.
+and move it to your project directory.
 
 Then in Visual Studio :
 
