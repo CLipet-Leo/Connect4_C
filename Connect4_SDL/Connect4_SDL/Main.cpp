@@ -1,20 +1,11 @@
 // Connect4_SDL.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
-#include <SDL.h>
-
-#include "Window.h"
+#include "GameManager.h"
 
 int main(int argc, char* args[])
 {
-    #define SCREEN_WIDTH 480
-    #define SCREEN_HEIGHT 360
-
-    bool error;
-
-    Window window(SCREEN_WIDTH, SCREEN_HEIGHT, &error);
-    window.createRenderer();
-
-    SDL_SetRenderDrawColor(window.oRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
+    GameManager game;
+    game.GameLoop();
 
     return 0;
 }
