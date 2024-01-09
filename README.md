@@ -1,10 +1,10 @@
-## Connect4_C-
+# Connect4_C-
 A training for my C++ exams to come ;)
 
-# Install SDL :
+## Install SDL :
 Go to Project -> package NuGet -> search for sdl2.nuget
 
-# Install SFML :
+## Install SFML :
 Go to Debug -> "name of your project" Debug Properties
 
 Debugging -> Environment -> type : `PATH=%PATH%;$(ProjectDir)..\SFML-2.5.1\bin`
