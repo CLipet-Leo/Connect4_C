@@ -13,10 +13,12 @@ C/C++ -> General -> Additional Include Directories -> <Edit... > -> type : `$(Pr
 and then clic on OK
 
 Linker -> input -> Additional Dependencies -> <Edit... > -> type : 
-`sfml-graphics-d.lib
+```
+sfml-graphics-d.lib
 sfml-window-d.lib
 sfml-audio-d.lib
-sfml-system-d.lib` 
+sfml-system-d.lib
+``` 
 and then clic on OK
 
 Finally you can apply changes and quit this window
