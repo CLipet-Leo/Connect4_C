@@ -7,16 +7,19 @@ Go to Project -> package NuGet -> search for sdl2.nuget
 All you have to do now is `#include <SDL.h>` and you are ready to go !!!
 
 ## Install SFML :
-Download the "Visual C++ 15 (2017) - 64-bit" directory in : https://www.sfml-dev.org/download/sfml/2.5.1/index-fr.php
+Download the "Visual C++ 15 (2017) - 64-bit" directory in : https://www.sfml-dev.org/download/sfml/2.6.1/index-fr.php
 and move it to your project directory.
 
 Then in Visual Studio :
 
 Go to Debug -> "name of your project" Debug Properties
 
-Debugging -> Environment -> type : `PATH=%PATH%;$(ProjectDir)..\SFML-2.5.1\bin`
+Debugging -> Environment -> type : `PATH=%PATH%;$(ProjectDir)..\SFML-2.6.1\bin`
 
-C/C++ -> General -> Additional Include Directories -> <Edit... > -> type : `$(ProjectDir)..\SFML-2.5.1\include` 
+C/C++ -> General -> Additional Include Directories -> <Edit... > -> type : `$(ProjectDir)..\SFML-2.6.1\include` 
+and then clic on OK
+
+Linker -> input -> Additional Library Directories -> <Edit... > -> type : `$(ProjectDir)..\SFML-2.6.1\include`
 and then clic on OK
 
 Linker -> input -> Additional Dependencies -> <Edit... > -> type : 
@@ -28,7 +31,7 @@ sfml-system-d.lib
 ``` 
 and then clic on OK
 
-Finally you can apply changes and quit this window
+Finally you can apply changes and WAIT for the loading, then quit this window.
 
 ## Code sample for test SFML :
 ```
