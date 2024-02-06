@@ -19,7 +19,7 @@ Debugging -> Environment -> type : `PATH=%PATH%;$(ProjectDir)..\SFML-2.6.1\bin`
 C/C++ -> General -> Additional Include Directories -> <Edit... > -> type : `$(ProjectDir)..\SFML-2.6.1\include` 
 and then clic on OK
 
-Linker -> input -> Additional Library Directories -> <Edit... > -> type : `$(ProjectDir)..\SFML-2.6.1\include`
+Linker -> input -> Additional Library Directories -> <Edit... > -> type : `$(ProjectDir)..\SFML-2.6.1\lib`
 and then clic on OK
 
 Linker -> input -> Additional Dependencies -> <Edit... > -> type : 
